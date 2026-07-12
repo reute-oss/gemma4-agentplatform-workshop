@@ -1,7 +1,7 @@
-# Gemma 4 on Agent Platform — deploy & personalize
+# Gemma 4 on Agent Platform: deploy & personalize
 
 A hands-on notebook: deploy an open **Gemma 4** model as your own private endpoint on
-Google Cloud's Agent Platform, then personalize it two ways — **RAG**
+Google Cloud's Agent Platform, then personalize it two ways, **RAG**
 (give it your facts) and **fine-tuning with LoRA** (change its behavior).
 
 **▶ Open in Colab:**
@@ -12,7 +12,7 @@ https://colab.research.google.com/github/reute-oss/gemma4-agentplatform-workshop
 2. Fill in `PROJECT` and `ENDPOINT_ID` in the notebook's Setup cell.
 3. Run it: connect, generate, **RAG with citations**, and real **LoRA fine-tuning** code.
 
-No API keys required — the notebook uses your Google credentials. The fine-tuning
+No API keys required, the notebook uses your Google credentials. The fine-tuning
 section is real training code; run it in a **GPU** runtime with your own dataset.
 
 ## Requirements
